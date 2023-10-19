@@ -1,62 +1,43 @@
-import React, {useState} from 'react';
-import {  
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  NavbarText } 
-from 'reactstrap';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import logo from "../assets/logo-light.svg";
 import googleplay from "../assets/googleplay.svg";
 import appstore from "../assets/appstore.svg";
 import './NavigationStyles.css';
 
-
-const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
-
-      return (
-        <>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src={logo} 
+function CollapsibleExample() {
+  return (
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">
+        <img src={logo} 
                 className="logo" 
                 width="110px"
                 height="auto"
-                alt="logo" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects"><img 
-              src={googleplay}
-              alt="googleplay-download"/></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact"><img 
+                alt="logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">contact us</Nav.Link>
+            </Nav>
+          <Nav>
+            <Nav.Link href="#deets"><img 
               src={appstore}
-              alt="appstore-download"/></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-        </>
-      );
-    }
-    
+              alt="appstore-download"/></Nav.Link>
+            <Nav.Link eventKey={2} href="#memes"><img 
+              src={googleplay}
+              alt="googleplay-download"/>              
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
 
-export default Navigation;
+export default CollapsibleExample;
