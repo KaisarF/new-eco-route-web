@@ -9,7 +9,9 @@
     background: #6DCE8B;
     font-family: 'Poppins', 'sans-serif';
 }
-
+.featuresContainer{
+    background-color:#6DCE8B;
+}
 .firstText {
     padding-left:10vh;
 }

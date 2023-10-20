@@ -2,13 +2,12 @@ import React from "react";
 import "./FeaturesStyles.css"
 import { Col, Row } from "reactstrap";
 import FeatureCarousel from "./Carousel";
-
 const Features = () => {
     return(
         <>
-        <div className="featuresContainer">
+        <div className="featuresContainer ">
             <Row className="firstContainer">
-                <Col className="firstImage"
+                <Col className="firstImage "
                 xs="6">
                     <FeatureCarousel/>
                 </Col>
