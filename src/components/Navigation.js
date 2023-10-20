@@ -25,7 +25,7 @@ const Navigation = () => {
           <Navbar expand="sm" className="navbar" fixed='top'>
             <NavbarBrand href="/">
                 <img src={logo} 
-                className="logo" 
+                className="navlogo" 
                 width="110px"
                 height="auto"
                 alt="logo" />
@@ -36,6 +36,11 @@ const Navigation = () => {
                 <NavItem>
                   <NavLink href="/features/">
                     Features
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/contacts/">
+                    FAQ
                   </NavLink>
                 </NavItem>
                 <NavItem>

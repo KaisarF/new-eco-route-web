@@ -1,6 +1,7 @@
 import React from "react";
 import "./FeaturesStyles.css"
 import { Col, Row } from "reactstrap";
+import FeatureCarousel from "./Carousel";
 
 const Features = () => {
     return(
@@ -9,6 +10,7 @@ const Features = () => {
             <Row className="firstContainer">
                 <Col className="firstImage"
                 xs="6">
+                    <FeatureCarousel/>
                 </Col>
                 <Col className="firstText"
                 xs="6">
