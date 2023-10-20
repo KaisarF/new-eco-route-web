@@ -6,7 +6,9 @@
     height: 60vh;
     font-family: 'Poppins', 'sans-serif';
 }
-
+.featuresContainer{
+    background-color:#6DCE8B;
+}
 .firstText {
     padding-left:10vh;
 }
@@ -26,9 +28,11 @@
     font-size: 16px;
 }
 
-.firstImage{
-    background: url('../assets/features (1).jpg');
-    background-size:cover;
+.divParent{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondText{

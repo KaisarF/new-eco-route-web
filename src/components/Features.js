@@ -1,14 +1,20 @@
 import React from "react";
 import "./FeaturesStyles.css"
 import { Col, Row } from "reactstrap";
+import image1 from "../assets/features (1).jpg";
+import UncontrolledCarousel from "./carousel";
 
 const Features = () => {
     return(
         <>
-        <div className="featuresContainer">
+        <div className="featuresContainer ">
             <Row className="firstContainer">
-                <Col className="firstImage"
+                <Col className="firstImage "
                 xs="6">
+                    <div className="divParent">
+                    <UncontrolledCarousel/>
+                    </div>
+                    
                 </Col>
                 <Col className="firstText"
                 xs="6">
