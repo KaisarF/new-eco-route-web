@@ -1,7 +1,14 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import React, {useState} from 'react';
+import {  
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  NavbarText } 
+from 'reactstrap';
 
 import logo from "../assets/logo-light.svg";
 import googleplay from "../assets/googleplay.svg";
@@ -44,13 +51,15 @@ const Navigation = () => {
               </Nav>
               <img 
               src={googleplay}
-              alt="googleplay-download"/>              
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  );
-}
+              alt="googleplay-download"/>
+              <img 
+              src={appstore}
+              alt="appstore-download"/>
+            </Collapse>
+          </Navbar>
+        </>
+      );
+    }
+    
 
-export default CollapsibleExample;
+export default Navigation;

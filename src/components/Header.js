@@ -53,7 +53,6 @@ const Header = () => {
                 </div>
                 </Col>
             </Row>
-            
         </Container>
     );
 }
