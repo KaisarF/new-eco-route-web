@@ -12,9 +12,10 @@
 }
 
 div.faqCard{
-    margin:auto;
+    text-align: center;
+    margin: auto;
     vertical-align: bottom;
-    height: 50vh;
+    height: 30vw;
     width: 20vw;
 }
 
@@ -24,4 +25,15 @@ div.faqBody {
 
 div.faqrow {
     padding: 0 100px;
+}
+
+h6.faqsubtitle {
+    font-size: 14px;
+}
+
+button.faqbutton{
+    position: relative;
+    margin: 10px auto;
+    width: 20vw;
+    font-size: 12px;
 }
