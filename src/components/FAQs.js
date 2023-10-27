@@ -39,7 +39,7 @@ const FAQs = () => {
                         penggunaan aplikasi secara umum
                         </CardSubtitle>
                 </Card>
-                <CardFooter>
+                <CardFooter className="faqcardfooter" tag="div">
                             <Button className="faqbutton align-self-end">
                                 Baca Selengkapnya...
                             </Button>
@@ -61,7 +61,7 @@ const FAQs = () => {
                         data pribadi, dsb.
                         </CardSubtitle>
                 </Card>
-                <CardFooter>
+                <CardFooter className="faqcardfooter" tag="div">
                             <Button className="faqbutton align-self-end">
                                 Baca Selengkapnya...
                             </Button>
@@ -82,7 +82,7 @@ const FAQs = () => {
                         Bantuan seputar pembayaran dan/atau langganan premium.
                         </CardSubtitle>
                 </Card>
-                <CardFooter>
+                <CardFooter className="faqcardfooter" tag="div">
                             <Button className="faqbutton align-self-end">
                                 Baca Selengkapnya...
                             </Button>
@@ -103,7 +103,7 @@ const FAQs = () => {
                         Bantuan seputar dukungan komunitas, kolaborasi, dan pengadaan event.
                         </CardSubtitle>
                 </Card>
-                <CardFooter>
+                <CardFooter className="faqcardfooter" tag="div">
                             <Button className="faqbutton align-self-end">
                                 Baca Selengkapnya...
                             </Button>

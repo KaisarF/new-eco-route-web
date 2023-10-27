@@ -14,7 +14,6 @@
 div.faqCard{
     text-align: center;
     margin: auto;
-    vertical-align: bottom;
     height: 30vw;
     width: 20vw;
 }
@@ -32,8 +31,12 @@ h6.faqsubtitle {
 }
 
 button.faqbutton{
-    position: relative;
-    margin: 10px auto;
     width: 20vw;
     font-size: 12px;
+}
+
+div.faqcardfooter{
+    text-align: center;
+    margin: 10px auto;
+    width: 20vw;
 }
