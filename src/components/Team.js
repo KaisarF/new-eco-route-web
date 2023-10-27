@@ -6,6 +6,9 @@ const Team = () => {
     return(
         <>
             <div className="teamCont">
+                <div>
+                    <h1 className="teamtitle">Meet the Team!</h1>
+                </div>
                 <Row>
                     <Col
                     xs="1">

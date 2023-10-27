@@ -2,14 +2,14 @@
 
 
 .introCont {
-    padding-top: 200px;
-    margin-bottom: 25vw;
+    padding-top: 50px;
     font-family: 'Poppins', 'sans-serif';
-    color: #EFEFEF;
+    color: #212121;
+    background-color: #EFEFEF;
 }
 
 .introText {
-    margin-top: 15vw;
+    padding-top: 10vw;
 }
 
 .introText  h1{
@@ -26,29 +26,32 @@
 }
 
 .carbonText {
-    margin-top: 15vw;
+    padding-top: 5vw;
 }
 
 .carbonText  h1{
     font-size: 32px;
     font-weight: 800;
     text-align: end;
-    margin-right: -5vw;
+
 }
 
 .carbonText p{
+    margin-left: 5vw;
+    margin-right: -0.1vw;
     font-size: 16px;
     text-align: end;
-    margin-left: 5vw;
-    margin-right: -5vw;
 }
 
-.phone {
-    margin-top: -5vw;
-    max-height: 800px;
-    min-height: 400px;
-    height: 50vw;
-    rotate: 20deg;
+.direction {
+    float: right;
+    width: 40vw;
+    position: relative;
+}
+
+.forest {
+    float: left;
+    width: 40vw;
     position: relative;
 }
 

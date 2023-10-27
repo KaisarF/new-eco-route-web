@@ -4,7 +4,7 @@ body {
 
 
 .appAnimation, .appBackdrop {
-	height: 400vh;
+	height: 1000px;
 }
 
 .appAnimation {
@@ -16,13 +16,22 @@ body {
   
 .appBackdrop {
     background-position: bottom center;
-    background-size: auto 100vw;
-    background-repeat: repeat;
-    background-image: url(./assets/leafblurred.png);
+    background-size: auto 100%;
+    background-repeat: repeat-x;
     width: 100%;
     position: absolute;
 }
 
 .appBackdrop.parallax {
     position: fixed;
+}
+
+#background {
+    background-image: url(./assets/Parallax/Background.png);
+}
+#skyline {
+    background-image: url(./assets/Parallax/skyline.png);
+}
+#park {
+    background-image: url(./assets/Parallax/park.png);
 }

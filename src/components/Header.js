@@ -15,9 +15,9 @@ const Header = () => {
                 <h2>Every. Mile.</h2>
                 <h1>Matters.</h1>
                 <div>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <h3>
+                Mulai bijak dalam berkendara dengan menghitung jejak karbon perjalananmu bersama Eco-Route.
+                </h3>
                 </div>
 
                 <a>

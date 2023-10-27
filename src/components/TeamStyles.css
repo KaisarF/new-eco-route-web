@@ -4,8 +4,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+.teamtitle{
+    text-align: center;
+}
+
 .teamCont{
-    height: 50vh;
+    padding: 40px 0px;
+    height: 60vh;
     background: #6DCE8B;
 }
 

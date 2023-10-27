@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Navigation from './components/Navigation'
-import Header from './components/Header'
+import Header from './components/Headeralt'
 import Intro from './components/Intro'
 import Features from './components/Features'
 import Team from "./components/Team";
@@ -17,23 +17,38 @@ const App = () => {
         <div className="App">
             <Navigation/>
             <Parallax className="appAnimation"
-            pages={3} 
+            pages={4} 
             style={{ top: '0', left: '0' }}>
                 <ParallaxLayer 
                 offset={0} 
                 speed={1}>
-                    <div className='appBackdrop parallax'>
+                    <div className='appBackdrop parallax'
+                    id='background'>
+                    </div>
+                </ParallaxLayer>
+                <ParallaxLayer 
+                offset={0} 
+                speed={2}>
+                    <div className='appBackdrop parallax'
+                    id='skyline'>
+                    </div>
+                </ParallaxLayer>
+                <ParallaxLayer 
+                offset={0} 
+                speed={3}>
+                    <div className='appBackdrop parallax'
+                    id='park'>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer
                 offset={0}
-                speed={1.5}>
+                speed={3}>
                     <Header/>
                     <Intro/>
                     <Features/>
+                    <Team/>
                     <Reviews/>
                     <FAQs/>
-                    <Team/>
                     <Footer/>
                 </ParallaxLayer>
 
