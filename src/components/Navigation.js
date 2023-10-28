@@ -34,17 +34,17 @@ const Navigation = () => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="me-auto" navbar="true" horizontal="end">
                 <NavItem>
-                  <NavLink href="/features/">
+                  <NavLink href="/FeaturesPage">
                     Features
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/contacts/">
+                  <NavLink href="/FAQPage">
                     FAQ
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/contacts/">
+                  <NavLink href="/ContactsPage">
                     Contact Us
                   </NavLink>
                 </NavItem>

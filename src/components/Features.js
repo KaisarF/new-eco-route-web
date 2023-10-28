@@ -25,7 +25,7 @@ const Features = () => {
             lintas dan menyarankan rute alternatif yang ramah 
             lingkungan, mengurangi emisi karbon, dan menghemat 
             waktu perjalanan. </p>
-            <a href="/features">
+            <a href="/FeaturesPage">
                 <Button variant='success'>Read More</Button>
             </a>
         </Carousel.Caption>
@@ -47,7 +47,7 @@ const Features = () => {
             dari aktivitas transportasi, juga memberikan kesadaran 
             bagi pengguna tentang kontribusi bijak mereka terhadap 
             perlindungan lingkungan.</p>
-            <a href="/features">
+            <a href="/FeaturesPage">
                 <Button variant='success'>Read More</Button>
             </a>
         </Carousel.Caption>
