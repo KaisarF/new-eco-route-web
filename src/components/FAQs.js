@@ -15,6 +15,7 @@ import komunitas from '../assets/community.png'
 import langganan from '../assets/payment.png'
 import privasi from '../assets/privacy.png'
 import penggunaan from '../assets/penggunaan.png'
+
 const FAQs = () => {
     return(
         <>
@@ -40,9 +41,11 @@ const FAQs = () => {
                         </CardSubtitle>
                 </Card>
                 <CardFooter className="faqcardfooter" tag="div">
+                        <a href="/FAQPage">
                             <Button className="faqbutton align-self-end">
                                 Baca Selengkapnya...
                             </Button>
+                        </a>
                 </CardFooter>
             </Col>
             <Col sm="3">
@@ -62,30 +65,11 @@ const FAQs = () => {
                         </CardSubtitle>
                 </Card>
                 <CardFooter className="faqcardfooter" tag="div">
+                        <a href="/FAQPage">    
                             <Button className="faqbutton align-self-end">
                                 Baca Selengkapnya...
                             </Button>
-                </CardFooter>
-            </Col>
-            <Col sm="3">
-                <Card body className="faqCard" tag="div">
-                    <CardImg
-                            alt="Langganan Premium"
-                            src={langganan}
-                            top
-                            width="100%"/>
-                    <CardTitle tag="h5">
-                        Langganan Premium
-                        </CardTitle>
-                        <CardSubtitle className="faqsubtitle mb-2 text-muted"
-                                    tag="h6">
-                        Bantuan seputar pembayaran dan/atau langganan premium.
-                        </CardSubtitle>
-                </Card>
-                <CardFooter className="faqcardfooter" tag="div">
-                            <Button className="faqbutton align-self-end">
-                                Baca Selengkapnya...
-                            </Button>
+                        </a>
                 </CardFooter>
             </Col>
             <Col sm="3">
@@ -104,9 +88,34 @@ const FAQs = () => {
                         </CardSubtitle>
                 </Card>
                 <CardFooter className="faqcardfooter" tag="div">
+                        <a href="/FAQPage">    
                             <Button className="faqbutton align-self-end">
                                 Baca Selengkapnya...
                             </Button>
+                        </a>
+                </CardFooter>
+            </Col>
+            <Col sm="3">
+                <Card body className="faqCard" tag="div">
+                    <CardImg
+                            alt="Lainnya..."
+                            src={langganan}
+                            top
+                            width="100%"/>
+                    <CardTitle tag="h5">
+                        Lainnya...
+                        </CardTitle>
+                        <CardSubtitle className="faqsubtitle mb-2 text-muted"
+                                    tag="h6">
+                        Pertanyaan lainnya akan ditambahkan dalam waktu dekat.
+                        </CardSubtitle>
+                </Card>
+                <CardFooter className="faqcardfooter" tag="div">
+                        <a href="/FAQPage">    
+                            <Button className="faqbutton align-self-end">
+                                Baca Selengkapnya...
+                            </Button>
+                        </a>
                 </CardFooter>
             </Col>
             </Row>

@@ -8,6 +8,7 @@ import Team from "./components/Team";
 import Footer from "./components/Footer"
 import Reviews from "./components/Reviews";
 import FAQs from "./components/FAQs";
+import CallToAction from "./components/CallToAction";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -17,7 +18,7 @@ const App = () => {
         <div className="App">
             <Navigation/>
             <Parallax className="appAnimation"
-            pages={4} 
+            pages={2.3} 
             style={{ top: '0', left: '0' }}>
                 <ParallaxLayer 
                 offset={0} 
@@ -49,9 +50,9 @@ const App = () => {
                     <Team/>
                     <Reviews/>
                     <FAQs/>
+                    <CallToAction/>
                     <Footer/>
                 </ParallaxLayer>
-
             </Parallax>
 
 

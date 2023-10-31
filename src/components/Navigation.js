@@ -7,7 +7,8 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarText } 
+  NavbarText, 
+  Button} 
 from 'reactstrap';
 
 import logo from "../assets/logo-light.svg";
@@ -49,12 +50,17 @@ const Navigation = () => {
                   </NavLink>
                 </NavItem>
               </Nav>
+              {/*}
               <img 
               src={googleplay}
               alt="googleplay-download"/>
               <img 
               src={appstore}
               alt="appstore-download"/>
+              */}
+              <Button>
+              Join our Beta Test
+              </Button>
             </Collapse>
           </Navbar>
         </>
