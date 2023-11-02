@@ -22,28 +22,28 @@ const App = () => {
             style={{ top: '0', left: '0' }}>
                 <ParallaxLayer 
                 offset={0} 
-                speed={1}>
+                speed={0.5}>
                     <div className='appBackdrop parallax'
                     id='background'>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer 
                 offset={0} 
-                speed={2}>
+                speed={1}>
                     <div className='appBackdrop parallax'
                     id='skyline'>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer 
                 offset={0} 
-                speed={3}>
+                speed={1.5}>
                     <div className='appBackdrop parallax'
                     id='park'>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer
                 offset={0}
-                speed={3}>
+                speed={2}>
                     <Header/>
                     <Intro/>
                     <Features/>
