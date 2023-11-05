@@ -12,9 +12,6 @@ nav {
 
 .FeaturesBox, .FAQBox, .ContactBox{
     padding: 5px 20px;
-
-
-
 }
 .FeaturesLink, .FAQLink, .ContactLink{
     text-decoration: none;
@@ -22,7 +19,6 @@ nav {
 }
 
 .active{
-    
     padding: 5px 20px;
     border-radius: 25px;
     box-shadow: 5px 10px green;
