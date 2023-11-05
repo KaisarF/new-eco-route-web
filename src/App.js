@@ -9,6 +9,7 @@ import Footer from "./components/Footer"
 import Reviews from "./components/Reviews";
 import FAQs from "./components/FAQs";
 import CallToAction from "./components/CallToAction";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -43,7 +44,7 @@ const App = () => {
                 </ParallaxLayer>
                 <ParallaxLayer
                 offset={0}
-                speed={2}>
+                speed={3}>
                     <Header/>
                     <Intro/>
                     <Features/>

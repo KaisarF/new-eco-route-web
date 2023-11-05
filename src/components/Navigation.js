@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {   NavLink } from 'react-router-dom';
 import {  
   Collapse,
   Navbar,
@@ -6,7 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+
   NavbarText, 
   Button} 
 from 'reactstrap';
@@ -34,18 +35,18 @@ const Navigation = () => {
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>
               <Nav className="me-auto" navbar="true" horizontal="end">
-                <NavItem>
-                  <NavLink href="/FeaturesPage">
+                <NavItem className='FeaturesBox'>
+                  <NavLink activeClassName="navbar_link-active" className="FeaturesLink" to="/FeaturesPage" >
                     Features
                   </NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink href="/FAQPage">
+                <NavItem className='FAQBox'>
+                  <NavLink className="FAQLink" to="/FAQPage">
                     FAQ
                   </NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink href="/ContactsPage">
+                <NavItem className='ContactBox'>
+                  <NavLink className="ContactLink" to="/ContactsPage">
                     Contact Us
                   </NavLink>
                 </NavItem>

@@ -11,6 +11,7 @@ import image4 from "./assets/FeaturesAssets/challenges.png";
 import image5 from "./assets/FeaturesAssets/leaderboard.png";
 import CallToAction from "./components/CallToAction";
 
+
 const FeaturesPage = () => {
     return(
         <div> 
