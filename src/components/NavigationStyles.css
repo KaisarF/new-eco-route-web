@@ -18,9 +18,9 @@ nav {
     color: black;
 }
 
-.active{
+.FeaturesBox .active, .FAQBox .active, .ContactBox .active{
     padding: 5px 20px;
     border-radius: 25px;
-    box-shadow: 5px 10px green;
+    box-shadow: 5px 7px green;
     color: black;
 }
