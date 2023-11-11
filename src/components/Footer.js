@@ -5,7 +5,9 @@ import './FooterStyles.css'
 const Footer = () => {
   return (
     <div className='footerCont'>
+    
         <footer>
+        
           <div className='footerRow' >
           <div
           className='footerCol'>
