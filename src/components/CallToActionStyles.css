@@ -3,3 +3,14 @@
     height: 40vh;
     padding: 15vh;
 }
+@media screen and (max-width:400px) {
+    .actionCont{
+        margin-bottom:20px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .actionCont{
+        margin-bottom:60px;
+    }
+}

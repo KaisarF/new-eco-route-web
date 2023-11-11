@@ -1,15 +1,20 @@
 .footerCont {
     background: #6DCE8B;
-    padding-top: 5vh;
-    height: 30vh;
+    padding-bottom:75px;
+    
     width: auto;
+    
 }
 
-div.footerRow{
+.footerRow{
     margin: auto;
     width: 70vw;
     text-align: start;
-    
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    flex-direction: row;
+    gap:250px;
 }
 
 .footerDivLeft {
@@ -22,4 +27,35 @@ div.footerRow{
 
 .footerDivRight {
 
+}
+@media screen and (max-width: 1437px){
+    .footerRow{
+        gap:200px;
+    }
+}
+@media screen and (max-width: 1290px){
+    .footerRow{
+        gap:150px;
+    }
+}
+@media screen and (max-width:1140px){
+    .footerCont{
+        width:100%;
+    }
+    .footerRow{
+        gap:125px;
+    }
+
+}
+@media screen and (max-width: 1066px){
+    .footerRow{
+        gap:100px;
+    }
+}
+
+@media screen and (max-width: 993px){
+    .footerRow{
+        flex-direction:column;
+        gap:30px;
+    }
 }

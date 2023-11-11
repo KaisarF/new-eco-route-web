@@ -107,4 +107,13 @@
     .image{
         width:60%;
     }
+    .left-side-feature1{
+        padding:150px 20px 0px 20px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    
+    .left-side-feature1{
+        padding:100px 20px 0px 20px;
+    }
   }
