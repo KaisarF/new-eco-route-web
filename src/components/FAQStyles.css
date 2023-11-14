@@ -14,8 +14,9 @@
 div.faqCard{
     text-align: center;
     margin: auto;
-    height: 30vw;
-    width: 20vw;
+    height: 90%;
+    width: 22vw;
+    
 }
 
 div.faqBody {
@@ -23,7 +24,13 @@ div.faqBody {
 }
 
 div.faqrow {
-    padding: 0 100px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    
+    grid-row-gap:30px;
+    margin:0 auto;
+    
 }
 
 h6.faqsubtitle {
@@ -38,5 +45,71 @@ button.faqbutton{
 div.faqcardfooter{
     text-align: center;
     margin: 10px auto;
-    width: 20vw;
+    width: 22vw;
+}
+@media screen and (max-width: 1600px){
+    
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:23vw;
+    }
+}
+@media screen and (max-width: 1500px){
+    
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:24vw;
+    }
+}
+@media screen and (max-width: 1400px){
+    
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:25vw;
+    }
+}
+@media screen and (max-width: 1080px){
+    div.faqrow {
+        grid-template-columns: 33% 33% 33% ;
+        text-align: center
+        
+    }
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:30vw;
+    }
+}
+@media screen and (max-width: 880px){
+    
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:31vw;
+    }
+}
+@media screen and (max-width: 770px){
+    
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:32vw;
+    }
+}
+@media screen and (max-width: 681px){
+    div.faqrow {
+        grid-template-columns: 50% 50% ;
+        text-align: center
+        
+    }
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:40vw;
+    }
+}
+@media screen and (max-width: 604px){
+    
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:42vw;
+    }
+}
+@media screen and (max-width: 530px){
+    div.faqrow {
+        grid-template-columns: 100% ;
+        text-align: center
+        
+    }
+    div.faqCard, div.faqcardfooter, button.faqbutton{
+        width:90vw;
+    }
 }

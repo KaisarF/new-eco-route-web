@@ -23,7 +23,7 @@ const FAQs = () => {
             <h1>Frequently Asked Questions</h1>
         </div>
         <div className="faqsCont">
-        <Row tag="div" className="faqrow">    
+        <div className="faqrow">    
             <Col sm="3">
                 <Card body className="faqCard" tag="div">
                         <CardImg
@@ -118,7 +118,7 @@ const FAQs = () => {
                         </a>
                 </CardFooter>
             </Col>
-            </Row>
+            </div>
         </div>
         </>
     )

@@ -1,9 +1,9 @@
 .footerCont {
     background: #6DCE8B;
     padding-bottom:75px;
-    padding-top:25px;
+    padding-top:40px;
     width: auto;
-    
+    height:150%;
 }
 
 .footerRow{
@@ -12,7 +12,7 @@
     text-align: start;
     display:flex;
     justify-content:center;
-    align-items:start;
+    align-items:flex-start;
     flex-direction: row;
     gap:250px;
 }
