@@ -1,16 +1,37 @@
 .actionCont{
     text-align:center;
-    height: 40vh;
+    justify-content:center;
+    
     padding: 15vh;
 }
-@media screen and (max-width:400px) {
+
+@media screen and (max-width:900px) {
     .actionCont{
-        margin-bottom:20px;
+        padding:13vh;
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:800px) {
     .actionCont{
-        margin-bottom:60px;
+        padding:11vh;
     }
 }
+
+@media screen and (max-width:700px) {
+    .actionCont{
+        padding:9vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .actionCont{
+        padding:7vh;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .actionCont{
+        padding:5vh;
+    }
+}
+

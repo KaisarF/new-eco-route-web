@@ -8,7 +8,7 @@ const Intro = () => {
     return(
         <>
         <Container fluid = "true" className = "introCont">
-            <Row>
+            <Row className="introduction1">
                 <Col
                 xs="6">
                     <img className="direction"
@@ -32,7 +32,7 @@ const Intro = () => {
                     </p>
                 </Col>
             </Row>
-            <Row> 
+            <Row className="introduction2"> 
                 <Col className="carbonText"
                 xs="6">
                     <h1>Memangnya</h1>

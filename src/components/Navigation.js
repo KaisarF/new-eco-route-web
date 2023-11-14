@@ -40,11 +40,6 @@ const Navigation = () => {
                     Features
                   </NavLink>
                 </NavItem>
-                <NavItem className='FAQBox'>
-                  <NavLink className="FAQLink" to="/FAQPage">
-                    FAQ
-                  </NavLink>
-                </NavItem>
                 <NavItem className='ContactBox'>
                   <NavLink className="ContactLink" to="/ContactsPage">
                     Contact Us

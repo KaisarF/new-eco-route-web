@@ -6,6 +6,7 @@
     font-family: 'Poppins', 'sans-serif';
     color: #212121;
     background-color: #EFEFEF;
+    padding:3vw 0;
 }
 
 .introText {
@@ -56,3 +57,28 @@
 }
 
 
+
+@media screen and (max-width:900px) {
+    .introduction1, .introduction2{
+        display:flex;
+        gap:2vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .introduction1{
+        flex-direction:column;
+    }
+    .introduction2{
+        flex-direction:column-reverse;
+        
+    }
+    .carbonText p, .carbonText h1{
+        text-align: center;
+        margin:0;
+        padding:0;
+    }
+    .introText h1, .introText p{
+        margin-right: 0;
+    }
+}
