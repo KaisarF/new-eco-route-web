@@ -45,7 +45,6 @@ const Navigation = () => {
                     FAQ
                   </NavLink>
                 </NavItem>
-                
               </Nav>
               {/*}
               <img 
