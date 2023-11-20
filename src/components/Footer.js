@@ -31,7 +31,7 @@ const Footer = () => {
             <div className='footerDivRight'>
               <h3>Contacts</h3>
               <h6> Email </h6>
-              <h6> Whatsapp </h6>
+              <a href='http://wa.me/6285236944692'> Whatsapp </a>
               <h6> LinkedIn </h6>
               <h6> Instagram </h6>
               <h6> Twitter </h6>

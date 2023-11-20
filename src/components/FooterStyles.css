@@ -5,6 +5,10 @@
     width: auto;
     height:150%;
 }
+a{
+    text-decoration:none;
+    color:black;
+}
 
 .footerRow{
     margin: auto;

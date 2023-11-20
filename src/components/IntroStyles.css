@@ -22,9 +22,7 @@
     font-size: 16px;
 }
 
-.introText h1,p{
-    margin-right: 5vw;
-}
+
 
 .carbonText {
     padding-top: 5vw;
@@ -65,6 +63,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        
     }
     .introduction1{
         flex-direction:column;
