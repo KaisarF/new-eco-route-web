@@ -103,13 +103,3 @@ div.faqcardfooter{
         width:42vw;
     }
 }
-@media screen and (max-width: 530px){
-    div.faqrow {
-        grid-template-columns: 100% ;
-        text-align: center
-        
-    }
-    div.faqCard, div.faqcardfooter, button.faqbutton{
-        width:90vw;
-    }
-}

@@ -6,7 +6,6 @@
     font-family: 'Poppins', 'sans-serif';
     color: #212121;
     background-color: #EFEFEF;
-    padding:3vw 0;
 }
 
 .introText {
@@ -54,16 +53,34 @@
     position: relative;
 }
 
+/*Mobile*/
+@media only screen and (max-width: 600px) { 
 
+    .introCont {
+        padding: 50px 10px;
+        font-family: 'Poppins', 'sans-serif';
+        color: #212121;
+        background-color: #EFEFEF;
+    }
 
-@media screen and (max-width:900px) {
-    .introduction1, .introduction2{
-        display:flex;
-        gap:2vw;
+    .introText {
+        padding-top: 10vw;
+    }
+    
+    .introText  h1{
+        font-size: 32px;
+        font-weight: 800;
         text-align: center;
-        justify-content: center;
-        align-items: center;
-        
+    }
+    
+    .introText p{
+        margin: 10px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .carbonText {
+        padding-top: 5vw;
     }
     .introduction1{
         flex-direction:column;
@@ -73,13 +90,39 @@
         flex-direction:column-reverse;  
         
     }
-    .carbonText p, .carbonText h1{
+
+    .carbonText p{
+        margin: 10px auto;
+        font-size: 16px;
         text-align: center;
-        margin:0;
-        padding:0;
     }
-    .introText h1, .introText p{
-        margin-right: 0;
+
+    .carbonText {
+        padding-top: 5vw;
     }
     
+    .carbonText  h1{
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .carbonText p{
+        margin: 10px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    img.forest {
+        padding-top: 50px;
+        margin-left: 14vw;
+        width: 70%;
+        height: auto;
+    }
+
+    img.direction {
+        margin-left: 14vw;
+        width: 70%;
+        height: auto;
+    }
 }
