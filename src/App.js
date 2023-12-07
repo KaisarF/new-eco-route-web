@@ -12,50 +12,21 @@ import CallToAction from "./components/CallToAction";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import TestFAQ from "./components/BetaTestFAQ";
 
 
 const App = () => {
     return(
         <div className="App">
             <Navigation/>
-            <Parallax className="appAnimation"
-            pages={2.3} 
-            style={{ top: '0', left: '0' }}>
-                <ParallaxLayer 
-                offset={0} 
-                speed={0.5}>
-                    <div className='appBackdrop parallax'
-                    id='background'>
-                    </div>
-                </ParallaxLayer>
-                <ParallaxLayer 
-                offset={0} 
-                speed={1}>
-                    <div className='appBackdrop parallax'
-                    id='skyline'>
-                    </div>
-                </ParallaxLayer>
-                <ParallaxLayer 
-                offset={0} 
-                speed={1.5}>
-                    <div className='appBackdrop parallax'
-                    id='park'>
-                    </div>
-                </ParallaxLayer>
-                <ParallaxLayer
-                offset={0}
-                speed={3}>
-                    <Header/>
-                    <Intro/>
-                    <Features/>
-                    <Team/>
-                    <Reviews/>
-                    <FAQs/>
-                    <CallToAction/>
-                    <Footer/>
-                </ParallaxLayer>
-            </Parallax>
-
+ 
+            <Header/>
+            <Intro/>
+            <Features/>
+            <Team/>
+            <TestFAQ/>
+            <CallToAction/>
+            <Footer/>
 
         </div>
     );
