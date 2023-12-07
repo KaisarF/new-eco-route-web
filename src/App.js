@@ -19,7 +19,7 @@ const App = () => {
         <div className="App">
             <Navigation/>
             <Parallax className="appAnimation"
-            pages={3.2} 
+            pages={3.1} 
             style={{ top: '0', left: '0' }}>
                 <ParallaxLayer 
                 offset={0} 
