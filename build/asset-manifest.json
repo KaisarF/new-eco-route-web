@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e1c388a.css",
+    "main.js": "/static/js/main.4540bee2.js",
+    "static/media/banner1.png": "/static/media/banner1.8db8a6847d171de616fc.png",
+    "static/media/banner2.png": "/static/media/banner2.b9db9c5763bea69c94d1.png",
+    "static/media/penggunaan.png": "/static/media/penggunaan.bacc9676d56dc5d9e7a4.png",
+    "static/media/privacy.png": "/static/media/privacy.258e84c3b92f7922586d.png",
+    "static/media/payment.png": "/static/media/payment.f7572a28403a693f8343.png",
+    "static/media/park.png": "/static/media/park.d0dc3e56c65ce5489bdf.png",
+    "static/media/directions.svg": "/static/media/directions.a966d8d2a6130d9bcc53e5ec0ac15323.svg",
+    "static/media/skyline.png": "/static/media/skyline.4ff165d31a6f2191a12c.png",
+    "static/media/community.png": "/static/media/community.252d060ec7a9877c48b1.png",
+    "static/media/Background.png": "/static/media/Background.a0e45089dfeae2a40de0.png",
+    "static/media/forest.svg": "/static/media/forest.413ce5906c288191d0dd07c0a3cabdbd.svg",
+    "static/media/artificial-intelligence.png": "/static/media/artificial-intelligence.f8b3ce61d3f2bd7f2a9b.png",
+    "static/media/challenges.png": "/static/media/challenges.0e79731d1535f92b27a7.png",
+    "static/media/tracking.png": "/static/media/tracking.9a6bfe628231c98e5299.png",
+    "static/media/history.png": "/static/media/history.5eb51dbe585c681b5d2b.png",
+    "static/media/leaderboard.png": "/static/media/leaderboard.db5b451877f613353480.png",
+    "static/media/appstore.svg": "/static/media/appstore.6c2810b7e81155140eae7e3e6e955ec1.svg",
+    "static/media/googleplay.svg": "/static/media/googleplay.9e9fd43f5af00c3a71ec751b5844c965.svg",
+    "static/media/logo-light.svg": "/static/media/logo-light.504695c439461a6ad72b83768554ddc4.svg",
+    "static/media/Star Ratings.svg": "/static/media/Star Ratings.3699f618ed4724f1234f904acf52accd.svg",
+    "index.html": "/index.html",
+    "main.1e1c388a.css.map": "/static/css/main.1e1c388a.css.map",
+    "main.4540bee2.js.map": "/static/js/main.4540bee2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e1c388a.css",
+    "static/js/main.4540bee2.js"
+  ]
+}
