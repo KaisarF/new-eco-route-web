@@ -10,6 +10,7 @@ import App from './App';
 import FeaturesPage from './FeaturesPage';
 import FAQPage from './FAQPage';
 import ContactsPage from './ContactsPage';
+import PrivacyPolicyPages from './PrivacyPolicy';
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         path:"/ContactsPage",
         element: <ContactsPage/>,
     },
+    {
+        path:"/PrivacyPolicy",
+        element: <PrivacyPolicyPages/>,
+    }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

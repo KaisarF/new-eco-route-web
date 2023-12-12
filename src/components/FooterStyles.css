@@ -9,6 +9,10 @@ a{
     text-decoration:none;
     color:black;
 }
+.footerDivMid>a, .footerDivRight>a{
+    text-decoration:none;
+    color:black;
+}
 .eco-image{
     width:70%;
 }

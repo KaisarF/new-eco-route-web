@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footerRow">
           <div className="footerCol">
             <div className="footerDivLeft">
-              <a
+              <a 
                 href="https://www.linkedin.com/in/eco-route/"
                 
               >
@@ -27,6 +27,7 @@ const Footer = () => {
               <h6>App Features</h6>
               <h6>User Reviews</h6>
               <h6>Frequently Asked Questions</h6>
+              <a href="/PrivacyPolicy">Privacy Policy</a>
             </div>
           </div>
           <div className="footerCol">
