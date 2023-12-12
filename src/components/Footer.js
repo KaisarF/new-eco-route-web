@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import "./FooterStyles.css";
 import Logo from "../assets/eco-route(Light).png";
 
@@ -27,7 +27,9 @@ const Footer = () => {
               <h6>App Features</h6>
               <h6>User Reviews</h6>
               <h6>Frequently Asked Questions</h6>
-              <a href="/PrivacyPolicy">Privacy Policy</a>
+              <NavLink to="/PrivacyPolicy">
+              Privacy Policy
+              </NavLink>
             </div>
           </div>
           <div className="footerCol">
