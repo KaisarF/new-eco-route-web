@@ -20,38 +20,11 @@ const Header = () => {
                 </h3>
                 </div>
 
-                <a>
-                <img 
-                src = { googleplay }
-                alt = "google play"/>
-                </a>
-
-                <a>
-                <img 
-                src = { appstore }
-                alt = "app store"/>
-                </a>
+                
 
                 </Col>
                 
-                <Col
-                className="title-graphic"
-                xs="7"
-                >
-                <div fluid="true">
-
-                <img className="bikebg"
-                src={ require("../assets/Browser.png")} 
-                alt="browser"
-                />
-            
-                <img className="bike"
-                src={ require("../assets/bike.png")} 
-                alt="bike"
-                />
-            
-                </div>
-                </Col>
+                
             </Row>
         </Container>
     );

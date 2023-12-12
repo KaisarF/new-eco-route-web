@@ -1,6 +1,6 @@
 .Feature1, .Feature3, .Feature5{
-    background-color:#white;
-    padding-top:90pxx;
+    background-color:white;
+    padding-top:90px;
     display:flex;
     align-items:center;
     flex-direction:row;

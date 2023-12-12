@@ -9,7 +9,9 @@ a{
     text-decoration:none;
     color:black;
 }
-
+.eco-image{
+    width:70%;
+}
 .footerRow{
     margin: auto;
     width: 70vw;
@@ -22,7 +24,9 @@ a{
 }
 
 .footerDivLeft {
-    
+    display: flex;
+    flex-direction: column;
+    gap:5px;
 }
 
 .footerDivMid {
