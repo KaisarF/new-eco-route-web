@@ -16,7 +16,7 @@ const Team = () => {
             <Col data-aos="fade-up" data-aos-duration="1000"  className="member" id="niken" xs="2">
               <img
                 className="photo"
-                src={require("../assets/placeholder.jpg")}
+                src={require("../assets/niken.JPG")}
               />
               <h1>Niken Larasati</h1>
               <h2>Machine Learning Engineer</h2>
@@ -24,7 +24,7 @@ const Team = () => {
             <Col data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"  className="member" id="lintang" xs="2">
               <img
                 className="photo"
-                src={require("../assets/placeholder.jpg")}
+                src={require("../assets/elma.JPEG")}
               />
               <h1>Lintang Pramayasti</h1>
               <h2>Machine Learning Engineer</h2>
@@ -32,7 +32,7 @@ const Team = () => {
             <Col data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000"  className="member" id="hakam" xs="2">
               <img
                 className="photo"
-                src={require("../assets/placeholder.jpg")}
+                src={require("../assets/hakam.PNG")}
               />
               <h1>Muhammad Hakam F.</h1>
               <h2>Mobile Developer</h2>
@@ -40,7 +40,7 @@ const Team = () => {
             <Col data-aos="fade-up" data-aos-duration="2500"  data-aos-delay="1500" className="member" id="aman" xs="2">
               <img
                 className="photo"
-                src={require("../assets/placeholder.jpg")}
+                src={require("../assets/nurkholis.JPG")}
               />
               <h1>Nurkholis Amanullah</h1>
               <h2>Cloud Computing Engineer</h2>
@@ -48,7 +48,7 @@ const Team = () => {
             <Col data-aos="fade-up" data-aos-duration="3000" data-aos-delay="2000" className="member" id="kaisar" xs="2">
               <img
                 className="photo"
-                src={require("../assets/placeholder.jpg")}
+                src={require("../assets/kaisar.jpg")}
               />
               <h1>Kaisar Fauzan</h1>
               <h2>Cloud Computing Engineer</h2>
