@@ -6,10 +6,10 @@ import { Button } from "reactstrap";
 
 const CallToAction = () => {
     return (
-        <div className="actionCont">
+        <div className="actionCont" data-aos="zoom-in" data-aos-duration="1000">
             <h1>Ready to Make a Change?</h1>
             <h6>Be one step ahead towards your sustainable journey</h6>
-            <Button>Join our Beta Test</Button>
+            <Button href="https://bit.ly/UnduhEcoRoute">TRY OUR APPLICATION</Button>
             {
             /*<a>
                 <img 

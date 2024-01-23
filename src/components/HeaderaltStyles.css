@@ -8,8 +8,13 @@
     text-align: center;
     justify-content: center;
     top: 40%;
-    height: 50vh;
+    height: 70vh;
     font-family: 'Poppins', 'sans-serif';
+    background:url(../assets/header-bg.jpg) rgba(3, 0, 0, 0.49);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color:white;
 }
 
 .textCont h1{
@@ -18,4 +23,8 @@
 
 .textCont h5{
     font-weight: 600;
+}
+
+.action-button:hover{
+    color:#6DCE8B;
 }

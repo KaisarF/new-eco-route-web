@@ -11,7 +11,7 @@ const Intro = () => {
         <div>
         <MediaQuery minWidth={992}>
         <Container fluid = "true" className = "introCont">
-            <Row>
+            <Row data-aos="fade-right" data-aos-duration="1000" className="first-container" >
                 <Col
                 xs="6">
                     <img className="direction"
@@ -35,7 +35,7 @@ const Intro = () => {
                     </p>
                 </Col>
             </Row>
-            <Row> 
+            <Row data-aos="fade-right" data-aos-duration="1000"  className="second-container"> 
                 <Col className="carbonText"
                 xs="6">
                     <h1>Memangnya</h1>

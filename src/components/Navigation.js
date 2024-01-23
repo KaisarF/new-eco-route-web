@@ -54,8 +54,8 @@ const Navigation = () => {
               src={appstore}
               alt="appstore-download"/>
               */}
-              <Button>
-              Join our Beta Test
+              <Button href="https://bit.ly/UnduhEcoRoute">
+              TRY OUR APPLICATION
               </Button>
             </Collapse>
           </Navbar>

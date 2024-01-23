@@ -1,6 +1,6 @@
 .Feature1, .Feature3, .Feature5{
     background-color:white;
-    padding-top:90px;
+    padding:90px 100px 0px 100px;
     display:flex;
     align-items:center;
     flex-direction:row;
@@ -8,11 +8,14 @@
 }
 .Feature2, .Feature4{
     background-color:black;
-    padding-top:90pxx;
+    padding:90px 100px 0px 100px;
     display:flex;
     align-items:center;
     flex-direction:row;
     
+}
+p{
+    text-align: justify;
 }
 
 .left-side-feature1{
@@ -27,7 +30,7 @@
 .right-side-feature1{
     padding:200px 60px 10px 60px;
     flex: 1;
-    text-align:left;
+    
     background-color:transparent;
 
 }
@@ -39,7 +42,7 @@
 .left-side-even{
     padding:20px 60px 10px 60px;
     flex: 1;
-    text-align:right;
+    
     background-color:transparent;
     color: white;
 
@@ -61,7 +64,7 @@
 .right-side-odd{
     padding:20px 60px 10px 60px;
     flex: 1;
-    text-align:left;
+    
     background-color:transparent;
     color: black;
 
@@ -109,6 +112,18 @@
     }
     .left-side-feature1{
         padding:150px 20px 0px 20px;
+    }
+    
+    
+  }
+  @media screen and (max-width:650px){
+    .Feature1,.Feature2,.Feature3,.Feature4,.Feature5{
+        padding:90px 50px 0px 50px;
+    }
+  }
+  @media screen and (max-width:450px){
+    .Feature1,.Feature2,.Feature3,.Feature4,.Feature5{
+        padding:90px 0px 0px 0px;
     }
   }
   @media screen and (max-width: 375px) {
