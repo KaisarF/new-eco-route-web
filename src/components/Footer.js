@@ -17,7 +17,7 @@ const Footer = () => {
               >
                 <img class=" eco-image" src={Logo} />
               </a><br></br>
-              app by green innovation indonesia
+              App by Green Innovation Indonesia
             </div>
           </div>
           <div className="footerCol">

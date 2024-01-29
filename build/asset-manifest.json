@@ -1,9 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e1c388a.css",
-    "main.js": "/static/js/main.9617bc3b.js",
+    "main.css": "/static/css/main.a5838aed.css",
+    "main.js": "/static/js/main.55d00a76.js",
+    "static/media/header-bg.jpg": "/static/media/header-bg.092085c54c853434d92a.jpg",
+    "static/media/male.jpg": "/static/media/male.75a4b1739ef0e5998d51.jpg",
+    "static/media/kaisar.jpg": "/static/media/kaisar.ae56c2c44d5fb7f53f5c.jpg",
     "static/media/banner1.png": "/static/media/banner1.8db8a6847d171de616fc.png",
     "static/media/banner2.png": "/static/media/banner2.b9db9c5763bea69c94d1.png",
+    "static/media/female.jpg": "/static/media/female.fa088772984962d0f067.jpg",
+    "static/media/nurkholis.JPG": "/static/media/nurkholis.c65ff7aa4301e1b97c0e.JPG",
+    "static/media/elma.JPEG": "/static/media/elma.c5a549ee1126def3f5a8.JPEG",
+    "static/media/hakam.PNG": "/static/media/hakam.6f0920a031117dd404c4.PNG",
     "static/media/penggunaan.png": "/static/media/penggunaan.bacc9676d56dc5d9e7a4.png",
     "static/media/privacy.png": "/static/media/privacy.258e84c3b92f7922586d.png",
     "static/media/payment.png": "/static/media/payment.f7572a28403a693f8343.png",
@@ -13,6 +20,7 @@
     "static/media/community.png": "/static/media/community.252d060ec7a9877c48b1.png",
     "static/media/Background.png": "/static/media/Background.a0e45089dfeae2a40de0.png",
     "static/media/forest.svg": "/static/media/forest.413ce5906c288191d0dd07c0a3cabdbd.svg",
+    "static/media/niken.JPG": "/static/media/niken.d37d105d48a4e1ba79bb.JPG",
     "static/media/artificial-intelligence.png": "/static/media/artificial-intelligence.f8b3ce61d3f2bd7f2a9b.png",
     "static/media/challenges.png": "/static/media/challenges.0e79731d1535f92b27a7.png",
     "static/media/tracking.png": "/static/media/tracking.9a6bfe628231c98e5299.png",
@@ -23,11 +31,11 @@
     "static/media/logo-light.svg": "/static/media/logo-light.504695c439461a6ad72b83768554ddc4.svg",
     "static/media/Star Ratings.svg": "/static/media/Star Ratings.3699f618ed4724f1234f904acf52accd.svg",
     "index.html": "/index.html",
-    "main.1e1c388a.css.map": "/static/css/main.1e1c388a.css.map",
-    "main.9617bc3b.js.map": "/static/js/main.9617bc3b.js.map"
+    "main.a5838aed.css.map": "/static/css/main.a5838aed.css.map",
+    "main.55d00a76.js.map": "/static/js/main.55d00a76.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e1c388a.css",
-    "static/js/main.9617bc3b.js"
+    "static/css/main.a5838aed.css",
+    "static/js/main.55d00a76.js"
   ]
 }

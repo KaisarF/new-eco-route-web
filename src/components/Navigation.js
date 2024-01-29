@@ -8,9 +8,9 @@ import {
   Nav,
   NavItem,
 
-  NavbarText, 
-  Button} 
+  NavbarText} 
 from 'reactstrap';
+import Button from 'react-bootstrap/Button';
 
 import logo from "../assets/logo-light.svg";
 import googleplay from "../assets/googleplay.svg";
@@ -54,7 +54,7 @@ const Navigation = () => {
               src={appstore}
               alt="appstore-download"/>
               */}
-              <Button href="https://bit.ly/UnduhEcoRoute">
+              <Button variant='success' href="https://bit.ly/UnduhEcoRoute">
               TRY OUR APPLICATION
               </Button>
             </Collapse>

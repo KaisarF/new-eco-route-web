@@ -10,7 +10,7 @@ const Header = () => {
         <div data-aos="fade-up" data-aos-duration="2000" >
             <h1>Every. Mile. Matters.</h1>
             <h5>Jadilah pengendara yang bijak dengan Eco-Route, teman berkendara Anda!</h5>
-            <Button className="action-button" href="https://bit.ly/UnduhEcoRoute">TRY OUR APPLICATION</Button>
+            
         </div>
             
             {/*<a>

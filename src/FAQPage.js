@@ -43,32 +43,18 @@ const FAQPage = () => {
             <h2>Akun dan Privasi</h2>
             <ul>
                 <li>
-                    <h6>Pertanyaan 1</h6>
+                    <h6>bagaimana cara mendaftarkan akun</h6>
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Enim cum nulla nisi maiores adipisci labore alias. 
-                    Tenetur reiciendis laudantium aliquam consequatur sit 
-                    dolorem ex laborum animi ipsa? Id, facilis placeat?
+                    Untuk membuat akun, Anda memiliki opsi untuk melakukan pendaftaran melalui layanan Google atau mendaftarkan diri menggunakan alamat email.
                     </p>
                 </li>
                 <li>
-                    <h6>Pertanyaan 2</h6>
+                    <h6>bagaimana jika saya lupa password</h6>
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Enim cum nulla nisi maiores adipisci labore alias. 
-                    Tenetur reiciendis laudantium aliquam consequatur sit 
-                    dolorem ex laborum animi ipsa? Id, facilis placeat?
+                    Apabila Anda mengalami lupa password, kami menyediakan fasilitas dengan tombol "lupa password". Setelahnya, sistem kami akan mengirimkan email verifikasi yang memungkinkan Anda untuk mengonfirmasi identitas dan melanjutkan proses pengubahan password sesuai dengan preferensi Anda.
                     </p>
                 </li>
-                <li>
-                    <h6>Pertanyaan 3</h6>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Enim cum nulla nisi maiores adipisci labore alias. 
-                    Tenetur reiciendis laudantium aliquam consequatur sit 
-                    dolorem ex laborum animi ipsa? Id, facilis placeat?
-                    </p>
-                </li>
+                
             </ul>
             <h2>Komunitas</h2>
             <ul>
