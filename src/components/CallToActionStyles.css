@@ -5,6 +5,21 @@
     padding: 15vh;
 }
 
+.sponsor img{
+    height:50px;
+}
+.sponsor{
+    margin:200px 20px 20px 20px;
+    padding:20px 100px;
+    text-align:center;
+    justify-content:center;
+}
+.imageWrapper{
+    margin:0px 30px;
+}
+.contentWrapper{
+    padding:30px 0px;
+}
 @media screen and (max-width:900px) {
     .actionCont{
         padding:13vh;
