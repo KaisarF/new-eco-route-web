@@ -13,8 +13,7 @@ from 'reactstrap';
 import Button from 'react-bootstrap/Button';
 
 import logo from "../assets/logo-light.svg";
-import googleplay from "../assets/googleplay.svg";
-import appstore from "../assets/appstore.svg";
+
 import './NavigationStyles.css';
 
 

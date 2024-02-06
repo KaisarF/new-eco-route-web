@@ -7,31 +7,12 @@ import{
 } from "react-router-dom";
 
 import App from './App';
-import FeaturesPage from './FeaturesPage';
-import FAQPage from './FAQPage';
-import ContactsPage from './ContactsPage';
-import PrivacyPolicyPages from './PrivacyPolicy';
+
 
 const router = createBrowserRouter([
     {
         path:"/",
         element: <App/>,
-    },
-    {
-        path:"/FeaturesPage",
-        element: <FeaturesPage/>,
-    },
-    {
-        path:"/FAQPage",
-        element: <FAQPage/>,
-    },
-    {
-        path:"/ContactsPage",
-        element: <ContactsPage/>,
-    },
-    {
-        path:"/PrivacyPolicy",
-        element: <PrivacyPolicyPages/>,
     }
 ]);
 

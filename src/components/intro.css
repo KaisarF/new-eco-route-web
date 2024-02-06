@@ -1,0 +1,32 @@
+.content{
+    display:flex;
+    padding:100px 20px 150px 20px;
+    align-items:center;
+    flex-direction:row;
+    background-color:#F5F7FA;
+}
+.leftSide{
+    flex:1;
+    align-items:center;
+    padding:0px 200px 0px 130px;
+}
+
+.firstTitle, .secondTitle{
+    font-weight:semibold;
+    text-transform: capitalize;
+    font-size:64px;
+}
+.firstTitle{
+    color:#4D4D4D;
+}
+.secondTitle{
+    color:#4CAF4F;
+}
+
+.rightSide{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:0px 50px 0px 0px;
+}
