@@ -1,11 +1,11 @@
 import React from "react";
-import bumi from "../assets/earth.png"
+import bumi from "../assets/earth.svg"
 import googleplay from "../assets/google-play.jpeg"
 import "./intro.css"
 
 const Introduction = ()=>{
     return(
-        <div className="content">
+        <div className="Introduction">
             <div className="leftSide">
                 <h1 className="firstTitle">great steps for a</h1>
                 <h1 className="secondTitle">green earth</h1>

@@ -1,0 +1,32 @@
+.UserTrack{
+    display:flex;
+    flex-direction:row  ;
+    padding:50px;
+    background-color:#F5F7FA;
+    margin:50px 0px;
+}
+
+.UserTrack>.leftSide, .UserTrack>.rightSide{
+    flex:1;
+    }
+
+.UserTrack>.leftSide{
+    padding:20px 50px;
+}
+.firstSection, .secondSection,.userCount{
+    display:flex;
+    flex-direction:row;
+    flex:1;
+}
+.userCount{
+    padding:30px 0px ;
+    vertical-align:center;
+    align-items:center;
+}
+.userCount img{
+    height:50px;
+    margin:5px 15px;
+}
+.difH1{
+    color:#4CAF4F;
+}

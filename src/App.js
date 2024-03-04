@@ -4,7 +4,11 @@ import Navigation from './components/Navigation'
 import Introduction from './components/Intro'
 import Footer from "./components/Footer"
 import Sponsor from "./components/Sponsor"
-
+import Feature from "./components/Feature"
+import Explanation from "./components/Explanation"
+import UserTrack from "./components/UserTrack";
+import CarbonEmission from "./components/CarbonEmission";
+import Teams from "./components/TeamsMember";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -16,6 +20,11 @@ const App = () => {
             <Navigation/>
             <Introduction/>
             <Sponsor/>
+            <Feature/>  
+            <Explanation/>
+            <UserTrack/>
+            <CarbonEmission/>
+            <Teams/>
             <Footer/>
 
         </div>

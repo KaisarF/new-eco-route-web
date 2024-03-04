@@ -1,0 +1,27 @@
+.Explanation{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 20px;
+}
+
+.Explanation>.leftSide{
+    display: flex;
+    flex:2;
+    padding:30px 50px;
+    justify-content: center;
+}
+
+.Explanation>.rightSide{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    padding:30px 50px;
+}
+.Explanation>.rightSide>button{
+    width:150px;
+    height:60px;
+    background-color:#4CAF4F;
+    color:#F9F9F9;
+    border-color:unset;
+    border-radius:10px;
+}

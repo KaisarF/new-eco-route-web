@@ -3,10 +3,13 @@
     height:50px;
 }
 .sponsor{
-    margin:200px 20px 20px 20px;
+    margin:100px 20px 120px 20px;
     padding:20px 100px;
     text-align:center;
     justify-content:center;
+}
+.sponsor p{
+    color:#717171;
 }
 .imageWrapper{
     margin:0px 30px;

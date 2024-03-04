@@ -1,29 +1,29 @@
-.content{
+.Introduction{
     display:flex;
     padding:100px 20px 150px 20px;
     align-items:center;
     flex-direction:row;
     background-color:#F5F7FA;
 }
-.leftSide{
+.Introduction>.leftSide{
     flex:1;
     align-items:center;
     padding:0px 200px 0px 130px;
 }
 
-.firstTitle, .secondTitle{
+.Introduction>.firstTitle, .Introduction>.secondTitle{
     font-weight:semibold;
     text-transform: capitalize;
     font-size:64px;
 }
-.firstTitle{
+.Introduction>.firstTitle{
     color:#4D4D4D;
 }
-.secondTitle{
+.Introduction>.secondTitle{
     color:#4CAF4F;
 }
 
-.rightSide{
+.Introduction>.rightSide{
     flex:1;
     display:flex;
     align-items:center;
