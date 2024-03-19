@@ -42,7 +42,7 @@
 .TeamsCard:hover{
     
     
-    width:200px;
+    transform:translateY(-20px);
     filter:grayscale(0%);
 }
 
