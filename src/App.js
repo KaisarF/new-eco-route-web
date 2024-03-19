@@ -9,6 +9,7 @@ import Explanation from "./components/Explanation"
 import UserTrack from "./components/UserTrack";
 import CarbonEmission from "./components/CarbonEmission";
 import Teams from "./components/TeamsMember";
+import FAQPage from "./components/FAQPage"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -25,6 +26,7 @@ const App = () => {
             <UserTrack/>
             <CarbonEmission/>
             <Teams/>
+            <FAQPage/>
             <Footer/>
 
         </div>
