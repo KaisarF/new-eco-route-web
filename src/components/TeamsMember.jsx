@@ -50,14 +50,6 @@ const CarbonEmission =()=>{
                     
                 </div>
                 <div className="TeamsCard" >
-                <img src={aman}></img>
-                    <div className="TeamsIdentity">
-                    <h4>Cloud Computing</h4>
-                    <h6>Nurkholis Amanullah</h6>
-                    </div>
-                    
-                </div>
-                <div className="TeamsCard" >
                 <img src={kaisar}></img>
                     <div className="TeamsIdentity">
                     <h4>Cloud Computing</h4>
