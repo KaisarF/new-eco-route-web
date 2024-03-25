@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./FooterStyles.css";
-import Logo from "../assets/eco-route(Light).png";
-
+import Logo from "../assets/eco-route-logo-green.svg";
+import inputLogo from "../assets/inputButton.svg"
 const Footer = () => {
   return (
     <div className="footerCont">
@@ -17,38 +17,33 @@ const Footer = () => {
               >
                 <img class=" eco-image" src={Logo} />
               </a><br></br>
-              App by Green Innovation Indonesia
+              <p>Copyright © 2024 Green Innovation Indonesia</p>
+              <p>All rights reserved</p>
+              
             </div>
           </div>
           <div className="footerCol">
-            <div className="footerDivMid">
-              <h3>Site Links</h3>
-              <h6>News and Notices</h6>
-              <h6>App Features</h6>
-              <h6>User Reviews</h6>
-              <h6>Frequently Asked Questions</h6>
-              <NavLink to="/PrivacyPolicy">
-              Privacy Policy
-              </NavLink>
-            </div>
+            <h1>company</h1>
+            <p>About Us</p>
+            <p>Blog</p>
+            <p>Contact Us</p>
+            <p>Testimonial</p>
           </div>
           <div className="footerCol">
-            <div className="footerDivRight">
-              <h3>Contacts</h3>
-              <h6> Email </h6>
-              <a href="http://wa.me/6285236944692"> 
-              <h6>Whatsapp</h6>
-              </a>
-              <a href="https://www.linkedin.com/in/eco-route/">
-              <h6> LinkedIn </h6>
-              </a>
-              <a href="https://www.instagram.com/ecoroute.apps">
-              <h6> Instagram </h6>
-              </a>
-              <a href="https://www.x.com/ecoroute_apps">
-              <h6> Twitter </h6>
-              </a>
-            </div>
+          <h1>Support</h1>
+            <p>Help Center</p>
+            <p>Terms of Service</p>
+            <p>Legal</p>
+            <p>Status</p>
+          </div>
+          <div className="footerCol">
+            <h1>Stay Up to Date</h1>
+            <form className="updateForm">
+              <input id="emailAddress" type="email" size="64" maxlength="64" required placeholder="username@gmail.com" className="updateInput"/>
+              <button className="updateButton">
+                <img src={inputLogo}/>
+              </button>
+            </form>
           </div>
         </div>
       </footer>

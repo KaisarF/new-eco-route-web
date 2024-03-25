@@ -40,10 +40,9 @@
 
 }
 .TeamsCard:hover{
-    
-    
     transform:translateY(-20px);
     filter:grayscale(0%);
+    width:150px;
 }
 
 .TeamsCard:before{

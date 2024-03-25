@@ -1,0 +1,42 @@
+.FAQPage{
+    padding:40px 200px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.FAQPage p{
+    color:#717171;
+}
+.FAQContent{
+    padding:0px 12rem;
+}
+
+.FAQPage .cardContainer{
+    display:flex;
+    flex-direction:row;
+    gap:5rem;
+    justify-content:center;
+    overflow-x: auto;
+    padding:2rem 3rem;
+}
+.reviewCard{
+    width:20rem;
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    padding: 20px 30px;
+    box-shadow: 9px 15px 25px 3px rgba(86,86,86,0.4);
+-webkit-box-shadow: 9px 15px 25px 3px rgba(86,86,86,0.4);
+-moz-box-shadow: 9px 15px 25px 3px rgba(86,86,86,0.4);
+border-radius: 50px;
+}
+.reviewCard h2{
+    font-size:20px;
+}
+
+.reviewCard p{
+    font-size:13px;
+}

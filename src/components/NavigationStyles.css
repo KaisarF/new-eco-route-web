@@ -2,10 +2,12 @@
     font-family:'inter'
 }
 
-nav {
-    background-color: #E9E9E9;
+.navbar {
+    background-color: #F5F7FA;
     font-family: 'Poppins';
     font-size: 1rem;
+    height: 80px;
+    padding:0px 30px;
 }
 
 .navlogo {

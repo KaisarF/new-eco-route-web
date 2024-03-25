@@ -7,13 +7,17 @@ import{
 } from "react-router-dom";
 
 import App from './App';
-
+import PrivacyPolicyPages from './PrivacyPolicy';
 
 const router = createBrowserRouter([
     {
         path:"/",
         element: <App/>,
-    }
+    },
+    {
+      path:"/PrivacyPolicy",
+      element: <PrivacyPolicyPages/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

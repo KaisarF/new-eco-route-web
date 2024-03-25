@@ -10,6 +10,7 @@ import UserTrack from "./components/UserTrack";
 import CarbonEmission from "./components/CarbonEmission";
 import Teams from "./components/TeamsMember";
 import FAQPage from "./components/FAQPage"
+import DownloadPage from "./components/downloadPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -27,8 +28,9 @@ const App = () => {
             <CarbonEmission/>
             <Teams/>
             <FAQPage/>
+            <DownloadPage />
             <Footer/>
-
+            
         </div>
     );
 }

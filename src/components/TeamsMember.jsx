@@ -7,7 +7,7 @@ import niken from "../assets/niken.JPG"
 import aman from "../assets/nurkholis.JPG"
 import kaisar from "../assets/kaisar.jpg"
 import jefri from "../assets/jefri.jpeg"
-import firman from "../assets/firman.jpeg"
+import firman from "../assets/firman.JPG"
 
 const CarbonEmission =()=>{
     return(
@@ -69,7 +69,7 @@ const CarbonEmission =()=>{
                 <img src={firman}></img>
                     <div className="TeamsIdentity">
                     <h4>mobile developer</h4>
-                    <h6>m. Frimansyah</h6>
+                    <h6>m. Firmansyah</h6>
                     </div>
                     
                 </div>

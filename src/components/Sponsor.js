@@ -15,7 +15,7 @@ const Sponsor = ()=>{
             <h2>sponsored by</h2>
             <p>We have collaborated with several brands</p>
             <div className="contentWrapper">
-                <Marquee>
+                <Marquee gradient={true} gradientWidth={100}>
                 <div className="imageWrapper" >
                     <img src={bangkit}></img>
                 </div>

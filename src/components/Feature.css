@@ -11,7 +11,7 @@
 .FeaturesTitile p{
     color:#717171;
 }
-.cardContainer{
+.Features  .cardContainer{
     display:flex;
     flex-direction:row;
     justify-content:center;
