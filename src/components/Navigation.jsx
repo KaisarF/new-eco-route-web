@@ -27,7 +27,7 @@ const Navigation = () => {
             <NavbarBrand href="/">
                 <img src={logo} 
                 className="navlogo" 
-                width="110px"
+                width="50vw"
                 height="auto"
                 alt="logo" />
             </NavbarBrand>
