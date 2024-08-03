@@ -12,6 +12,7 @@ import "./Sponsor.css"
 const Sponsor = ()=>{
     return(
         <div className="sponsor">
+        <div className="sponsorContent">
             <h2>sponsored by</h2>
             <p>We have collaborated with several brands</p>
             <div className="contentWrapper">
@@ -33,6 +34,7 @@ const Sponsor = ()=>{
                 </div>
                     
                 </Marquee>
+                </div>
                 </div>
             </div>
     )

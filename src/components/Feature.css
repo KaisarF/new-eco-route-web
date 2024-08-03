@@ -33,3 +33,47 @@
     color:#4D4D4D;
     margin:10px 0px;
 }
+
+
+@media screen and (max-width: 1332px){
+
+    .FeaturesTitle{
+        padding:0px 400px;
+    }
+}
+
+
+@media screen and (max-width: 1274px){
+
+    .FeaturesTitle{
+        padding:0px 350px;
+    }
+}
+
+@media screen and (max-width: 1169px){
+
+    .FeaturesTitle{
+        padding:0px 300px;
+    }
+}
+
+@media screen and (max-width: 1049px){
+
+    .FeaturesTitle{
+        padding:0px 250px;
+    }
+}
+
+@media screen and (max-width: 930px){
+
+    .FeaturesTitle{
+        padding:0px 200px;
+    }
+}
+
+@media screen and (max-width: 811px){
+
+    .FeaturesTitle{
+        padding:0px 150px;
+    }
+}

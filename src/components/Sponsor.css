@@ -18,3 +18,31 @@
 .contentWrapper{
     padding:30px 150px;
 }
+
+
+@media screen and (max-width: 1117px){
+    .contentWrapper{
+        padding:30px 100px;
+    }
+    .sponsorContent{
+        width:100vw;
+        margin: 90px 20px;
+    }
+
+    .sponsor img{
+        height:40px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contentWrapper{
+        padding:30px 50px;
+    }
+    .sponsorContent{
+        width:100vw;
+    }
+
+    .sponsor img{
+        height:30px;
+    }
+}

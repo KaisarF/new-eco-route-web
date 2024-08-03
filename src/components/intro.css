@@ -30,3 +30,37 @@
     justify-content: center;
     padding:0px 50px 0px 0px;
 }
+
+
+@media screen and (max-width: 1117px){
+    .Introduction .leftSide{
+        padding:0px 110px;
+    }
+
+}
+@media screen and (max-width: 995px){
+    .Introduction .leftSide{
+        padding:0px 90px;
+    }
+    
+    
+}
+@media screen and (max-width: 905px){
+    .Introduction .leftSide{
+        padding:0px 20vw;
+    }
+    .Introduction{
+        flex-direction:column-reverse;
+        gap:10vw;
+        text-align:center;
+    }
+    .Introduction .leftSide h1{
+        font-size:5vw;
+    }
+    .Introduction .leftSide p{
+        font-size:2vw;
+    }
+    .Introduction .rightSide{
+        padding:0px;
+    }
+}
