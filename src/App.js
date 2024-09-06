@@ -29,7 +29,7 @@ const App = () => {
             <CarbonEmission/>
             <Teams/>
             <FAQPage/>
-            <DownloadPage />
+            {/*<DownloadPage />*/}
             <Footer/>
             
         </div>
