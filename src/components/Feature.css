@@ -62,4 +62,19 @@
     align-items: center;     /* Menyelaraskan konten secara vertikal */
     flex-direction: column;
     }
+    .FeatureCard{
+        width: 40vw;
+    }
+    .FeatureCard>h2{
+        font-size:4vw;
+        font-weight:bold;
+        color:#4D4D4D;
+        margin:1vw 0px;
+    }
+    .FeatureCard>p{
+        font-size:2vw;
+    }
+    .FeatureCard img{
+        width: 10vw;
+    }
 }

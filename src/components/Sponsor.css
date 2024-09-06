@@ -19,7 +19,9 @@
     padding:30px 5vw;
 }
 @media screen and (max-width: 650px){
-
+    .sponsor img{
+        height:10vw;
+    }
     .FeaturesTitle{
         padding:0px 150px;
     }
