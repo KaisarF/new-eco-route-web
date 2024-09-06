@@ -12,20 +12,17 @@ import firman from "../assets/firman.jpeg"
 const CarbonEmission =()=>{
     return(
         <div className="Teams"> 
-            <div className="TeamsIntroduction">
+
             <div className="TeamsIntroduction">
                 <h1>Eco-Route</h1>
-                <h1>main</h1>
-                <h1>team</h1>
-                <h1>member</h1>
-            </div>
-                
+                <h1>Main Team Member</h1>
             </div>
             <div className="TeamsMember">
             <div id="cardContainer">
                 
             </div>
                 <div className="TeamsCard" >
+                
                 <img src={hakam}></img>
                     <div className="TeamsIdentity">
                     <h4>Mobile Developer</h4>

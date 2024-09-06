@@ -1,5 +1,5 @@
 .FAQPage{
-    padding:40px 200px ;
+    padding:40px 20px ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,7 +17,7 @@
 .FAQPage .cardContainer{
     display:flex;
     flex-direction:row;
-    gap:5rem;
+    gap:3vw;
     justify-content:center;
     overflow-x: auto;
     padding:2rem 3rem;
@@ -39,4 +39,16 @@ border-radius: 50px;
 
 .reviewCard p{
     font-size:13px;
+}
+@media screen and (max-width: 1150px){
+    .FAQPage .cardContainer{
+        display: flex;
+    text-align: center;
+    justify-content: center; /* Mengatur posisi secara horizontal */
+    align-items: center;     /* Menyelaraskan konten secara vertikal */
+    flex-direction: column;
+    width: 100vw;
+    padding: 4vw 0vw;
+    margin:0;
+    }
 }

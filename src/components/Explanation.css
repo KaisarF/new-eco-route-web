@@ -11,6 +11,9 @@
     justify-content: center;
 }
 
+.Explanation .leftSide img{
+    width: 30vw;
+}
 .Explanation>.rightSide{
     display: flex;
     flex-direction: column;
@@ -24,4 +27,25 @@
     color:#F9F9F9;
     border-color:unset;
     border-radius:10px;
+}
+@media screen and (max-width: 750px){
+    .Explanation{
+        display: flex;
+        text-align: center;
+        justify-content: center; /* Mengatur posisi secara horizontal */
+        align-items: center;     /* Menyelaraskan konten secara vertikal */
+        flex-direction: column;
+        
+    }
+    .Explanation .leftSide img{
+        width: 45vw;
+    }
+    .Explanation>.rightSide{
+        display: flex;
+        text-align: center;
+        justify-content: center; /* Mengatur posisi secara horizontal */
+        align-items: center;     /* Menyelaraskan konten secara vertikal */
+        flex-direction: column;
+        width: 80vw;
+    }
 }

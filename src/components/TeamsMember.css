@@ -90,3 +90,35 @@
 .TeamsCard h4, .TeamsCard h6{
     text-transform: capitalize
 }
+@media screen and (max-width: 1150px){
+    .Teams{
+        display: flex;
+    text-align: center;
+    justify-content: center; /* Mengatur posisi secara horizontal */
+    align-items: center;     /* Menyelaraskan konten secara vertikal */
+    flex-direction: column;
+    width: 100vw;
+    padding: 4vw 0vw;
+    margin:0;
+    }
+   .TeamsIntroduction{
+    margin:5vw 3vw;
+   }
+}
+@media screen and (max-width: 900px){
+    .TeamsMember            {
+        display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+    }
+    .TeamsCard{
+        display: flex;
+        flex: 1 1 30%;
+    }
+}
+@media screen and (max-width: 500px){
+    .TeamsCard{
+        display: flex;
+        flex: 1 1 40%;
+    }
+}

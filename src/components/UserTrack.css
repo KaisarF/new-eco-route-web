@@ -30,3 +30,13 @@
 .difH1{
     color:#4CAF4F;
 }
+@media screen and (max-width: 820px){
+    .UserTrack{
+        display: flex;
+        text-align: center;
+        justify-content: center; /* Mengatur posisi secara horizontal */
+        align-items: center;     /* Menyelaraskan konten secara vertikal */
+        flex-direction: column;
+        width: 100vw;
+    }
+}

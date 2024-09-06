@@ -25,3 +25,29 @@
     border-color:unset;
     border-radius:10px;
 }
+@media screen and (max-width: 950px){
+    .CarbonEmission{
+        display: flex;
+    text-align: center;
+    justify-content: center; /* Mengatur posisi secara horizontal */
+    align-items: center;     /* Menyelaraskan konten secara vertikal */
+    flex-direction: column;
+    width: 100vw;
+    }
+    .CarbonEmission .leftSide img{
+    width: 60vw;
+    }
+    .CarbonEmission>.rightSide{
+        width: 60vw;
+        display: flex;
+    text-align: center;
+    justify-content: center; /* Mengatur posisi secara horizontal */
+    align-items: center;     /* Menyelaraskan konten secara vertikal */
+    flex-direction: column;
+    }
+}
+@media screen and (max-width: 750px){
+    .CarbonEmission>.rightSide{
+        width:70vw;
+    }
+}

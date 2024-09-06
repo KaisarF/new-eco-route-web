@@ -1,12 +1,13 @@
 .Features{
-    padding:20px;
+    padding:5vw;
     display:flex;
     text-align:center;
     justify-content:center;
     flex-direction:column;
+    width: 95vw;
 }
 .FeaturesTitle{
-    padding:0px 450px;
+    padding:0px 10vw;
 }
 .FeaturesTitile p{
     color:#717171;
@@ -15,65 +16,50 @@
     display:flex;
     flex-direction:row;
     justify-content:center;
-    gap:150px;
-    padding:30px 0px;
+    gap:10vw;
+    padding:2vw 5vw;
 }
 
 .FeatureCard{
-    width:300px;
-    padding:20px 50px;
+    width:25vw;
+    padding:3vw 2vw;
     border:1px solid;
     border-radius:20px;
     box-shadow: 3px 5px #4D4D4D;
 }
 
 .FeatureCard>h2{
-    font-size:30px;
+    font-size:1.5vw;
     font-weight:bold;
     color:#4D4D4D;
-    margin:10px 0px;
+    margin:1vw 0px;
 }
 
+.FeatureCard>p{
+    font-size:1.1vw;
+}
 
-@media screen and (max-width: 1332px){
-
-    .FeaturesTitle{
-        padding:0px 400px;
+@media screen and (max-width: 1066px){
+    .Features  .cardContainer{
+        gap:8vw
     }
 }
-
-
-@media screen and (max-width: 1274px){
-
-    .FeaturesTitle{
-        padding:0px 350px;
+@media screen and (max-width: 990px){
+    .Features  .cardContainer{
+        gap:7vw
     }
 }
-
-@media screen and (max-width: 1169px){
-
-    .FeaturesTitle{
-        padding:0px 300px;
+@media screen and (max-width: 850px){
+    .Features  .cardContainer{
+        gap:6vw
     }
 }
-
-@media screen and (max-width: 1049px){
-
-    .FeaturesTitle{
-        padding:0px 250px;
-    }
-}
-
-@media screen and (max-width: 930px){
-
-    .FeaturesTitle{
-        padding:0px 200px;
-    }
-}
-
-@media screen and (max-width: 811px){
-
-    .FeaturesTitle{
-        padding:0px 150px;
+{
+  @media screen and (max-width: 750px)  .Features  .cardContainer{
+        display: flex;
+    text-align: center;
+    justify-content: center; /* Mengatur posisi secara horizontal */
+    align-items: center;     /* Menyelaraskan konten secara vertikal */
+    flex-direction: column;
     }
 }
