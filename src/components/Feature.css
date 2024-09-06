@@ -54,8 +54,8 @@
         gap:6vw
     }
 }
-{
-  @media screen and (max-width: 750px)  .Features  .cardContainer{
+@media screen and (max-width: 750px){
+    .Features  .cardContainer{
         display: flex;
     text-align: center;
     justify-content: center; /* Mengatur posisi secara horizontal */
