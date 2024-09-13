@@ -1,5 +1,6 @@
 *{
-    font-family:'inter'
+    font-family:'inter';
+    
 }
 
 .navbar {
@@ -9,6 +10,9 @@
     height: 80px;
     padding:0px 30px;
     width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navlogo {

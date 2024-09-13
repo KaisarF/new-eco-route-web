@@ -5,6 +5,7 @@
     width: auto;
     height:150%;
     color:#ffffff;
+    width: 100vw;
 }
 .footerCont a{
     text-decoration:none;
@@ -77,10 +78,13 @@
 }
 @media screen and (max-width:1140px){
     .footerCont{
-        width:100%;
+        width:100vw;
     }
     .footerRow{
         gap:125px;
+        width:100vw;
+        margin:0;
+        padding:2vw;
     }
 
 }
