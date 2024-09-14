@@ -120,5 +120,16 @@
     .TeamsCard{
         display: flex;
         flex: 1 1 40%;
+        display: flex;
+        text-align: center;
+        justify-content: center; /* Mengatur posisi secara horizontal */
+        align-items: center;     /* Menyelaraskan konten secara vertikal */
+        flex-direction: column;
+    }
+    .TeamsCard::before{
+        width: 80%;
+    }
+    .TeamsCard img{
+        width: 80%;
     }
 }

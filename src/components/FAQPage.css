@@ -48,7 +48,21 @@ border-radius: 50px;
     align-items: center;     /* Menyelaraskan konten secara vertikal */
     flex-direction: column;
     width: 100vw;
-    padding: 4vw 0vw;
+    padding: 4vw 1vw;
     margin:0;
+    }
+    .FAQContent{
+        padding:0   ;
+    }
+}
+@media screen and (max-width: 400px){
+    
+
+    
+    .reviewCard h2{
+        font-size: 15px;
+    }
+    .reviewCard p{
+        font-size: 11px;
     }
 }
