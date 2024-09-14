@@ -1,6 +1,6 @@
-*{
+html{
     font-family:'inter';
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navbar {
