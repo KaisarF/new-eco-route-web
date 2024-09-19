@@ -6,7 +6,7 @@ import elma from "../assets/elma.JPEG"
 import niken from "../assets/niken.JPG"
 import aman from "../assets/nurkholis.JPG"
 import kaisar from "../assets/kaisar.jpg"
-import jefri from "../assets/jefri.jpeg"
+import jefri from "../assets/jefri.jpg"
 import firman from "../assets/firman.jpeg"
 
 const CarbonEmission =()=>{

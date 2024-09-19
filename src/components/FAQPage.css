@@ -14,25 +14,38 @@
     padding:0px 12rem;
 }
 
-.FAQPage .cardContainer{
-    display:flex;
-    flex-direction:row;
+.cardContainer {
+    width: 100vw; /* Batasi lebar maksimal */
+    margin: 0 auto; /* Slider berada di tengah */
+    overflow: hidden; /* Untuk menghindari konten meluap */
+    padding: 5vw;
+    display: flex;
     gap:3vw;
-    justify-content:center;
-    overflow-x: auto;
-    padding:2rem 3rem;
 }
-.reviewCard{
+  .slick-slider {
+    width: 100%; /* Pastikan slider mengikuti lebar kontainer */
+  }
+  .slick-slide > .div{
+    margin: 0 10px;
+  }
+  .slick-slide {
+    display: flex; 
+    gap:3vw;
+    justify-content: center; /* Agar item slider berada di tengah */
+    width: 100vw; /* Sesuaikan lebar dengan slider */
+  }
+  .reviewCard {
     width:20rem;
+    height: 15rem;
     display:flex;
     flex-direction:column;
     text-align:left;
     padding: 20px 30px;
-    box-shadow: 9px 15px 25px 3px rgba(86,86,86,0.4);
--webkit-box-shadow: 9px 15px 25px 3px rgba(86,86,86,0.4);
--moz-box-shadow: 9px 15px 25px 3px rgba(86,86,86,0.4);
-border-radius: 50px;
+    margin: 20px;
+    border: 2px solid black;
 }
+  
+
 .reviewCard h2{
     font-size:20px;
 }
@@ -40,29 +53,9 @@ border-radius: 50px;
 .reviewCard p{
     font-size:13px;
 }
-@media screen and (max-width: 1150px){
-    .FAQPage .cardContainer{
-        display: flex;
-    text-align: center;
-    justify-content: center; /* Mengatur posisi secara horizontal */
-    align-items: center;     /* Menyelaraskan konten secara vertikal */
-    flex-direction: column;
-    width: 100vw;
-    padding: 4vw 1vw;
-    margin:0;
-    }
-    .FAQContent{
-        padding:0   ;
-    }
-}
-@media screen and (max-width: 400px){
-    
 
-    
-    .reviewCard h2{
-        font-size: 15px;
-    }
-    .reviewCard p{
-        font-size: 11px;
+@media screen and (max-width: 380px){
+    .reviewCard{
+        height: 18rem;
     }
 }

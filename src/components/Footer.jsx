@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./FooterStyles.css";
-import Logo from "../assets/eco-route-logo-green.svg";
+import Logo from "../assets/logo-light.svg";
 import inputLogo from "../assets/inputButton.svg"
 const Footer = () => {
   return (
